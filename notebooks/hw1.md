@@ -2,7 +2,7 @@
 
 1. Which of the following use cases can you reliably conduct an A/B test? (True/False)
 
-* [ ] Frontend person wants to change color of the 'Go' button on a search bar. Will it increase conversion rate?
+* [True] Frontend person wants to change color of the 'Go' button on a search bar. Will it increase conversion rate?
 
 * [ ] The data team created four versions of machine learning model for product recommendations to new users of an app. Which one is the best?
 

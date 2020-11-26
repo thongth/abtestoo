@@ -47,11 +47,11 @@
 
 4. Give 3 examples of values that are usually distributed in the following manner (do not use examples from class):
 
-* Bernoulli/Binomial distributions: gender of newborn child, Head/Tail, Win/Lose
+* Bernoulli/Binomial distributions: Gender of newborn child, Head/Tail, Win/Lose
 
-* Normal/Student t's distribution: ______, ______, ______
+* Normal/Student t's distribution: Height, IQ, Shoe size
 
-* Exponential distribution: ______, ______, ______
+* Exponential distribution: , ______, ______
 
 * Poisson distribution: ______, ______, ______
 

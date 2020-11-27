@@ -35,6 +35,20 @@
 
 5.1 At significance level of 7%, which variation should be chosen to run at 100% traffic? Show your work.
 
+**ANS** 
+
+       Each one is Bernoulli distributed.
+       H0: mean_red - mean_gold = 0
+       Ha: mean_red - mean_gold > 0
+       The pooled variance for this data is [(n-1)*sr^2 + (m-1)*sg^2] / (n+m-2) * (1/n + 1/m) 
+                                          = [59503*0.099170(1-0.099170) + 58943*0.101995(1-0.101995)] / (59504+58944-2) * (1/59504 + 1/58944)
+                                          = 3.0549*10^-6
+       t-value = (red_mean - gold_mean) / pooled s.d.
+               = (0.099170 - 0.101995) / sqrt(3.0549*10^-6)
+               = -1.616
+       P(T > |-1.616|) = P(T > 1.616) = 0.053
+       Since o.o53 < 0.07, we reject H0 in favor of Ha at significant level 0.07. So we will choose the gold one.
+
 5.2 What are the confidence intervals at 7% significance of conversion rates for Red and Gold? Show your work.
 
 

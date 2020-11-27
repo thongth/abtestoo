@@ -18,9 +18,13 @@
 
 4. Hamster Inc. once again wants to test the conversion rates between package colors of its sunflower seeds; this time it is Red Package vs Gold Package. The Red Package is the existing group with average conversion rate of 11%. If they think the minimum detectable effect is 1% and want to make a 80/20 control/test split, how many unique users should see each package color before we decide which one performs better? Assume that they are testing at significance level of 15%. Show your work.
 
-**ANS** m = 1/4
+**ANS** 
 
+        m = 1/4
         From the formula: n = (m+1)/m * (Za*sigma/MDE)^2
+        Find the sigma: Since the conversion distributed as bernoulli distribution, we know that p = mean. And we can find the variance from p(1-p) = 0.11(0.89) = 0.0979
+        Z value at significant value 0.15 = 1.04
+        Substitute into the formula: n = 5 * (1.04^2*0.0979) / 0.01^2 = 5294 and m = 1/4 * 5294 = 1323
 
 5. Let us say Hamster Inc. ran the experiment and got the following results. 
 
@@ -36,18 +40,18 @@
 
 6. Which of the following are true about frequentist A/B tests? (True/False)
 
-* [ ] It does not tell us the magnitude of the difference between control and test groups.
+* [**True**] It does not tell us the magnitude of the difference between control and test groups.
 
-* [ ] We can never know when to stop the experiments.
+* [**False**] We can never know when to stop the experiments.
 
-* [ ] We can never determine if the null hypothesis being true.
+* [**True**] We can never determine if the null hypothesis being true.
 
-* [ ] We can run one or as many experiments as we want using the same significance level.
+* [****] We can run one or as many experiments as we want using the same significance level.
 
-* [ ] If we have too many samples in each group, the validity of the test can be jeopardized.
+* [**True**] If we have too many samples in each group, the validity of the test can be jeopardized.
 
-* [ ] If you have set up the experiment based on desired minimum detectable effect and significance level, statististical significance is the only factor in determining which group is the better one.
+* [****] If you have set up the experiment based on desired minimum detectable effect and significance level, statististical significance is the only factor in determining which group is the better one.
 
-* [ ] We can only test difference between two proportions.
+* [**False**] We can only test difference between two proportions.
 
-* [ ] More samples in control and test groups are always better.
+* [**False**] More samples in control and test groups are always better.

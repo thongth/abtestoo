@@ -47,13 +47,13 @@
 
 4. Give 3 examples of values that are usually distributed in the following manner (do not use examples from class):
 
-* Bernoulli/Binomial distributions: Gender of newborn child, Head/Tail, Win/Lose
+* Bernoulli/Binomial distributions: **Gender of newborn child, Head/Tail, Win/Lose
 
-* Normal/Student t's distribution: Height, IQ, Shoe size
+* Normal/Student t's distribution: **Height, IQ, Shoe size
 
-* Exponential distribution: , ______, ______
+* Exponential distribution: **time until a radioactive particle decays, time it takes before your next telephone call, distance between mutations on a DNA strand
 
-* Poisson distribution: ______, ______, ______
+* Poisson distribution: **photons arriving at a telescope, customers arriving at a counter or call centre, number of decays in a given time interval in a radioactive sample
 
 5. Which variables should you control for in an A/B test of the following cases?
 

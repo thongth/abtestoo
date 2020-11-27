@@ -4,7 +4,7 @@
 
 * [**True**] Frontend person wants to change color of the 'Go' button on a search bar. Will it increase conversion rate?
 
-* [**False**] The data team created four versions of machine learning model for product recommendations to new users of an app. Which one is the best?
+* [**True**] The data team created four versions of machine learning model for product recommendations to new users of an app. Which one is the best?
 
 * [**False**] Two managers from different factions have Layout A and Layout B for a physical convenience store. Which one should we use?
 
@@ -43,7 +43,7 @@
 | 2020-11-30 | C    | visit    |
 | 2020-12-05 | C    | purchase |
 
-**ANS** event-based conversion rate of 2020-11 is 1 and cohort-based conversion rate is 2
+**ANS** event-based conversion rate of 2020-11 is 1/3 and cohort-based conversion rate is 2/3
 
 4. Give 3 examples of values that are usually distributed in the following manner (do not use examples from class):
 

@@ -37,7 +37,7 @@
 
 **ANS** 
 
-       Each one is Bernoulli distributed.
+       Each one is Bernoulli distributed. Assumed that we are using red and deciding to change to gold.
        H0: mean_red - mean_gold = 0
        Ha: mean_red - mean_gold < 0
        The pooled variance for this data is [(n-1)*sr^2 + (m-1)*sg^2] / (n+m-2) * (1/n + 1/m) 
@@ -53,17 +53,8 @@
 
 **ANS** 
 
-       Each one is Bernoulli distributed.
-       H0: mean_red - mean_gold = 0
-       Ha: mean_red - mean_gold < 0
-       The pooled variance for this data is [(n-1)*sr^2 + (m-1)*sg^2] / (n+m-2) * (1/n + 1/m) 
-                                          = [59503*0.099170(1-0.099170) + 58943*0.101995(1-0.101995)] / (59504+58944-2) * (1/59504 + 1/58944)
-                                          = 3.0549*10^-6
-       t-value = (red_mean - gold_mean) / pooled s.d.
-               = (0.099170 - 0.101995) / sqrt(3.0549*10^-6)
-               = -1.616
-       P(T > |-1.616|) = P(T > 1.616) = 0.053
-       Since o.o53 < 0.07, we reject H0 in favor of Ha at significant level 0.07. So we will choose the gold one.
+       for red: interval = 0.09917 + 1.812*sqrt(0.08933/59504) = 0.09917 +or- 0.0022 
+       for gold: interval = 0.101995 + 1.812*sqrt(0.09159/58944) = 0.101995 +or- 0.0026 
 
 6. Which of the following are true about frequentist A/B tests? (True/False)
 

@@ -39,7 +39,7 @@
 
        Each one is Bernoulli distributed.
        H0: mean_red - mean_gold = 0
-       Ha: mean_red - mean_gold > 0
+       Ha: mean_red - mean_gold < 0
        The pooled variance for this data is [(n-1)*sr^2 + (m-1)*sg^2] / (n+m-2) * (1/n + 1/m) 
                                           = [59503*0.099170(1-0.099170) + 58943*0.101995(1-0.101995)] / (59504+58944-2) * (1/59504 + 1/58944)
                                           = 3.0549*10^-6
